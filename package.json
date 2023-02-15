@@ -14,8 +14,7 @@
   "scripts": {
     "prebuild": "rimraf dist/",
     "build": "tsc",
-    "test": "jest --passWithNoTests",
-    "prepublish": "npm run test && npm run build"
+    "test": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
