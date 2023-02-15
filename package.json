@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Generate services graph",
   "main": "dist/index.js",
+  "private": false,
   "bin": {
     "scout": "./bin/cli.js"
   },
