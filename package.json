@@ -1,6 +1,6 @@
 {
   "name": "@archsense/scout",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Generate services graph",
   "main": "dist/index.js",
   "bin": {
@@ -55,5 +55,8 @@
     "tabWidth": 2,
     "trailingComma": "all",
     "useTabs": false
+  },
+  "dependencies": {
+    "commander": "^10.0.0"
   }
 }
